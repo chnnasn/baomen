@@ -1,0 +1,111 @@
+/* 手机端样式 */
+.shu,.q{
+	padding-left: 0.5rem;
+}
+.e{
+	display: flex;
+	justify-content: center;
+}
+.i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+}
+header nav{
+	margin: 0.5rem 0 0.5rem;
+}
+nav ul li a{
+	color: #337ab7;
+}
+nav ul li{
+	padding-bottom: 0.5rem;
+	display: flex;
+	justify-content: center;
+}
+.search form{
+	display: flex;
+}
+.search input{
+	height: 25px;
+	border-radius: 42px;
+	border: 1px solid #c0c0c0;
+	flex-grow: 1;
+}
+.search input:focus{
+	outline: none;
+}
+.search button:before{
+	content: "\f002";
+	font-family: FontAwesome;
+	color: #337ab7;
+}
+.search button{
+	width: 25px;
+	height: 25px;
+	border: 1px solid #c0c0c0;
+	outline: none;
+}
+footer p{
+	font-size: 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.guanyu,.a,.q{
+	display: flex;
+	justify-content: center;
+}
+.w {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.fa {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* 平板端样式 */
+@media(min-width:768px){
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+nav ul li {
+	padding-bottom: 0rem;
+	margin-left: 2rem;
+}
+.h{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.shu{
+	width: 50%;
+}
+.q{
+	padding-right: 1.5rem;
+}
+}
+
+/* PC端样式 */
+@media(min-width:992px){
+nav ul li {
+	margin-left: 3rem;
+	}
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.q{
+	padding-right: 0;
+}
+
+}
